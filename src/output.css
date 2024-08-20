@@ -35,6 +35,10 @@
 7. Disable tap highlights on iOS
 */
 
+.custom-width {
+  width: 520px;
+}
+
 html,
 :host {
   line-height: 1.5;
