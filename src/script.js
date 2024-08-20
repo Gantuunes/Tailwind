@@ -13,6 +13,46 @@
     document.getElementById('usuario').focus(); // --> garante o click no campo do id
 });
 
+
+
+
+
+
+document.getElementById('pwd-reg').addEventListener('click', function(){
+
+    const pwdReg = document.getElementById("pwd-reg").value;
+    const confirmPwdReg = document.getElementById("confirm-pwd-reg").value;
+    const message = document.getElementById("message");
+
+    if (pwdReg !== confirmPwdReg) {
+        message.textContent = "As senhas não coincidem!";
+        message.style.color = "red";
+        message.style.display = "block";
+}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // document.getElementById('email').addEventListener('submit', function(event){
 
 //     const email = document.getElementById('usuario');
