@@ -9,8 +9,7 @@
 
 <body class="bg-slate-900 my-40">
 
-    <div
-        class="bg-white h-auto w-96  mx-auto   flex flex-col  p-6 sm:w-11/12 m-2 items-center text-black rounded-2xl  ">
+    <div class="bg-white h-auto w-96  mx-auto   flex flex-col  p-6 sm:w-11/12 m-2 items-center text-black rounded-2xl  ">
         <h2 class="my-5 font-bold text-blue-900 pb-4 text-3xl">Cadastre-se</h2>
 
         <form id="login-form" class="w-full">
@@ -30,8 +29,8 @@
 
             <div class="text-center block mb-4 w-full">
                 <label class="text-black font-medium pl-3" for="pwd-reg">Confirme a senha:</label>
-                <input id="confirm-pwd-reg" placeholder="******"
-                    class="text-center rounded-md bg-gray-300 text-gray-800 font-medium px-3 w-full" type="tel"
+                <input id="confirmPwdReg" placeholder="******"
+                    class="text-center rounded-md bg-gray-300 text-gray-800 font-medium px-3 w-full" type="password"
                     required>
             </div>
             <div class="text-center block mb-4 w-full">
@@ -40,26 +39,28 @@
                     class="text-center rounded-md bg-gray-300 text-gray-800 font-medium px-3 w-full" type="tel"
                     required>
             </div>
-            <ul class="text-blue-900 text-lg " style="display: none;"> 
-                <li>Sua senha deverá  ter ao menos 8 caracteres;</li>
-                <li>Sua senha deverá ter uma letra maiúscula;</li>
-            </ul>
-            
-            
-
-            <div class="w-full flex flex-col items-center pt-4 mt-3">
-                <button type="submit-button"
-                    class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200">Cadastrar</button>
-            </div>
-        </div>
 
             <div class="mt-4 text-center text-red-500">
                 <p id="message"></p>
             </div>
 
-        </form>
+            <div class="w-full flex flex-col items-center pt-4 mt-3">
+                <button type="submit-button"
+                    class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200">Cadastrar</button>
+            </div>
 
-       
+            <ul class="text-center p-6 text-red-500">
+                <li>Sua senha deverá:</li>
+                <li> - ter ao menos 7 caracteres</li>
+                <li> - ter um E-mail válido</li>
+                <li> - Senhas serem iguais</li>
+            </ul>
+    </div>
+     
+
+    </form>
+
+
 
     </div>
 

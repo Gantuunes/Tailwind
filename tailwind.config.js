@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"], // Arquivos a serem escaneados para classes do Tailwind
+  content: ["./src/**/*.{html,js}"],
   theme: {
     screens:{
       'sm': "450px"
